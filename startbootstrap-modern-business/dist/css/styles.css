@@ -168,6 +168,42 @@ abbr[data-bs-original-title] {
   -webkit-text-decoration-skip-ink: none;
           text-decoration-skip-ink: none;
 }
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+.text1 {
+
+    font-family: 'Indie Flower', cursive;
+    font-color: blue;
+    font-size: 1em;
+}
+
+label{
+    padding-top: 3.5em;
+    padding-left: 3em;
+}
+.simple-tb {
+    color: white;
+    width: 3.5em;
+    height: 0.5em;
+    border-radius:5px;
+    transition-property:background-color,border-radius,width,height,color;
+    transition-duration:0.215s;
+    transition-delay: 0.215s;
+    text-align:center;
+    border: none;
+    float: none;
+    border-bottom: 1px solid blue;
+    font-family: 'Raleway', sans-serif;
+    background-color:transparent;
+}
+
+.simple-tb:hover {
+    background-color:white;
+    border-radius:15px;
+    color:black;
+    width: 3.5em;
+    height: 0.5em;
+}
 
 address {
   margin-bottom: 1rem;
@@ -239,8 +275,8 @@ sup {
 
 a {
   color: #0d6efd;
-  text-decoration: underline;
 }
+
 a:hover {
   color: #0a58ca;
 }
@@ -3474,7 +3510,6 @@ textarea.form-control-lg {
 .btn-link {
   font-weight: 400;
   color: #0d6efd;
-  text-decoration: underline;
 }
 .btn-link:hover {
   color: #0a58ca;
@@ -4013,7 +4048,6 @@ textarea.form-control-lg {
 .nav-item{
     font-family: Helvetica, sans-serif;
     text-transform: capitalize;
-    text-decoration: underline;
 }
 .nav-justified > .nav-link,
 .nav-justified .nav-item {
